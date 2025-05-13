@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    margin: auto;
+    width: 70%;
+    background-color: lightpink;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+}
+
+header > h1 {
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+nav li {
+    display: inline-block;
+    width: 300px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+section {
+    border: lightpink solid 2px;
+    padding: 30px;
+}
+
+#about p {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+
+img {
+    width: 500px;
+}
+
+#cv li, #contact li{
+    list-style-type: none;
+}
+
+#education, #work{
+    display: inline-block;
+    width: 450px;
+    margin: 20px;
+    border: deeppink dotted 2px;
+}
+
+#education ul {
+    margin-top: 20px;
+}
+
+#education li, #work li {
+    padding: 10px;
+}
+
+#contact li {
+    display: inline-block;
+}
+
+#contact ul {
+    text-align: right;
+}
